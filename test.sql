@@ -1,0 +1,11 @@
+--테이블 생성
+
+CREATE TABLE TEST (
+    id VARCHAR2(10) NOT NULL PRIMARY KEY,
+    username VARCHAR2(20) NOT NULL,
+    tel VARCHAR2(13) NULL
+);
+
+
+
+SELECT * FROM TEST;
